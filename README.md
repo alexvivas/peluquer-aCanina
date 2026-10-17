@@ -4,7 +4,7 @@
 
 Proyecto grupal desarrollado con **HTML5, CSS3 y JavaScript**, sin frameworks ni backend. Este repositorio conserva la estructura del trabajo original y documenta sus funcionalidades, límites y requisitos para ejecutarlo localmente.
 
-> **Estado:** prototipo frontend. Las imágenes originales no estaban incluidas en el archivo recibido, por lo que algunas secciones se visualizan incompletas. No es un sistema de ventas ni de reclamaciones listo para producción.
+> **Estado:** prototipo frontend. Tras la actualización del repositorio grupal, se restauraron 44 archivos de imagen. **Cuatro imágenes grandes siguen pendientes de sincronización**, por lo que algunas secciones pueden verse incompletas. No es un sistema de ventas ni de reclamaciones listo para producción.
 
 ## Funcionalidades
 
@@ -12,7 +12,7 @@ Proyecto grupal desarrollado con **HTML5, CSS3 y JavaScript**, sin frameworks ni
 - **Carrito local** para agregar, quitar y modificar cantidades; calcula el total y guarda los productos con `localStorage`.
 - **Tema claro/oscuro** con preferencia persistida en el navegador.
 - **Páginas informativas** de inicio, servicios, nosotros y contacto.
-- **Galería y carruseles** con interacción JavaScript; requieren los recursos gráficos originales.
+- **Galería y carruseles** con interacción JavaScript y recursos gráficos restaurados parcialmente.
 - **Formulario de reclamaciones** con validaciones de campos en el navegador. **No guarda ni envía datos a un servidor.**
 - Enlaces de ejemplo para compartir consultas por WhatsApp. La versión pública **no contiene el número real del negocio**.
 
@@ -48,7 +48,7 @@ Proyecto grupal desarrollado con **HTML5, CSS3 y JavaScript**, sin frameworks ni
 
 También puede abrirse `Proyecto/inicio.html` directamente, aunque un servidor local ofrece un entorno más consistente.
 
-**Importante:** sin las imágenes originales, se verán espacios vacíos o imágenes rotas. Consulta [Recursos gráficos](docs/RECURSOS.md) antes de intentar mostrarlo como una demo completa.
+**Importante:** cuatro imágenes grandes siguen ausentes; algunas imágenes pueden aparecer rotas. Consulta [Recursos gráficos](docs/RECURSOS.md) antes de intentar mostrarlo como una demo completa.
 
 ## Estructura del repositorio
 
@@ -69,7 +69,7 @@ También puede abrirse `Proyecto/inicio.html` directamente, aunque un servidor l
 │   ├── js/
 │   │   └── app.js
 │   └── img/
-│       └── README.md  (sin los recursos gráficos originales)
+│       └── [44 recursos gráficos restaurados; 4 pendientes]
 └── docs/
     ├── RECURSOS.md
     └── LIMITACIONES.md
@@ -77,7 +77,7 @@ También puede abrirse `Proyecto/inicio.html` directamente, aunque un servidor l
 
 ## Limitaciones conocidas y consideraciones
 
-- El ZIP de origen no incluía `Proyecto/img/`. La interfaz requiere imágenes y un logotipo externos al archivo recibido.
+- El ZIP inicial no incluía `Proyecto/img/`. La versión actual recuperó 44 imágenes del repositorio grupal; quedan pendientes `4K WALKPAPPER.jpg`, `baño basico.png`, `pagos.png` y `stickernos.png`.
 - El carrito se almacena **solo en el navegador**: no procesa pagos, usuarios ni órdenes reales.
 - El formulario de reclamaciones realiza validación frontend, **sin persistencia ni envío**.
 - Los datos de contacto, identificadores comerciales y enlaces a redes de un negocio se sustituyeron u omitieron en esta copia pública; son **marcadores de demostración**.
