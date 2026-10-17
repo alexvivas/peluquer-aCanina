@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelucas Caninas - Inicio</title>
+    <meta
+      name="description"
+      content="Descubre la mejor peluquería para tu mascota. Servicios de calidad y atención personalizada."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Enlace a Font Awesome para los íconos de redes sociales -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-general.css" />
+    <link rel="stylesheet" href="css/style-navbar.css" />
+    <link rel="stylesheet" href="css/style-footer.css" />
+    <link rel="stylesheet" href="css/style-inicio.css" />
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar">
+      <a href="inicio.html" class="logo">
+        <img src="img/Pelucas Caninas.png" alt="Logo Pelucas Caninas" />
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburguesa">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="productos.html">Productos</a>
+        <a href="inicio.html#contactanos">Contáctanos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </div>
+
+      <div class="nav-actions">
+        <button type="button" class="nav-icon-btn" id="darkModeToggle" aria-label="Cambiar modo oscuro">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button type="button" class="nav-cart-btn" id="cartToggle" aria-label="Abrir carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="cartCount">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- SECCIÓN INICIO -->
+    <section class="hero-inicio" id="inicio">
+      <div class="hero-bg-slider" aria-hidden="true">
+        <img src="img/iniciofoto.webp" alt="" class="activo" />
+        <img src="img/ini3.jpg" alt="" />
+        <img src="img/ini4.webp" alt="" />
+      </div>
+      <div class="hero-texto">
+        <div class="badge-hero">
+          Demostración académica de estética canina
+        </div>
+
+        <h2 class="hero-bienvenida">Bienvenido a Pelucas Caninas</h2>
+        <h1>Cuidamos la belleza y salud de tu mascota</h1>
+
+        <p>
+          Baños, cortes de raza y estética canina personalizada para que tu
+          engreído luzca limpio, feliz y bien cuidado.
+        </p>
+
+        <div class="hero-botones">
+          <a
+            href="#"
+            target="_blank"
+            class="btn-principal"
+          >
+            <i class="fab fa-whatsapp"></i> Agendar Cita
+          </a>
+          <a href="servicios.html" class="btn-secundario">Ver Servicios</a>
+        </div>
+
+        <div class="hero-datos">
+          <div>
+            <strong>Demo</strong>
+            <span>Proyecto académico</span>
+          </div>
+          <div>
+            <strong>Web</strong>
+            <span>Catálogo de ejemplo</span>
+          </div>
+          <div>
+            <strong>SJL</strong>
+            <span>Atención personalizada</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria">
+      <h2 class="titulo-seccion">Nuestros engreídos</h2>
+      <p class="descripcion-seccion">
+        Algunos clientes atendidos con cariño, paciencia y cuidado profesional
+      </p>
+
+      <div class="galeria-carrusel">
+        <div class="galeria-track">
+          <img src="img/Bianca.jpg" alt="Mascota Bianca" />
+          <img src="img/Candy.jpg" alt="Mascota Candy" />
+          <img src="img/Goku.jpg" alt="Mascota Goku" />
+          <img src="img/Linda.jpg" alt="Mascota Linda" />
+          <img src="img/Lunita.jpg" alt="Mascota Lunita" />
+          <img src="img/Manuel.jpg" alt="Mascota Manuel" />
+          <img src="img/Max.jpg" alt="Mascota Max" />
+          <img src="img/Pelusa.jpg" alt="Mascota Pelusa" />
+          <img src="img/Valentino.jpg" alt="Mascota Valentino" />
+          <img src="img/Willow y su hijo.jpg" alt="Mascota Willow y su hijo" />
+
+          <!-- Se repiten para que el carrusel sea continuo -->
+          <img src="img/Bianca.jpg" alt="Mascota Bianca" />
+          <img src="img/Candy.jpg" alt="Mascota Candy" />
+          <img src="img/Goku.jpg" alt="Mascota Goku" />
+          <img src="img/Linda.jpg" alt="Mascota Linda" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section class="recomendaciones" id="recomendaciones">
+      <h2 class="titulo-seccion">Recomendaciones para tu mascota</h2>
+      <p class="descripcion-seccion">
+        Cuidados básicos para mantener a tu engreído limpio, sano y feliz.
+      </p>
+
+      <div class="cards-recomendaciones">
+        <div class="card-reco">
+          <i class="fa-solid fa-shower"></i>
+          <h3>Baño adecuado</h3>
+          <p>
+            Baña a tu mascota con productos especiales para perros y evita usar
+            shampoo de personas, ya que puede irritar su piel.
+          </p>
+        </div>
+        <div class="card-reco">
+          <i class="fa-solid fa-paw"></i>
+          <h3>Cuidado de uñas</h3>
+          <p>
+            Revisa sus uñas con frecuencia. Si están muy largas, pueden causarle
+            molestias al caminar o correr.
+          </p>
+        </div>
+        <div class="card-reco">
+          <i class="fa-solid fa-brush"></i>
+          <h3>Cepillado frecuente</h3>
+          <p>
+            Cepilla su pelaje para evitar nudos, retirar pelo muerto y
+            mantenerlo limpio por más tiempo.
+          </p>
+        </div>
+        <div class="card-reco">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h3>Visitas periódicas</h3>
+          <p>
+            Agenda baños, cortes y revisiones de limpieza para prevenir malos
+            olores, pulgas y acumulación de suciedad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección contactanos -->
+    <section class="seccion-contacto" id="contactanos">
+      <div class="contacto-contenido">
+        <div class="contacto-info">
+          <h2>Contáctanos</h2>
+          <p class="contacto-subtitulo">
+            ¿Tienes una consulta? Estamos para ayudarte.
+          </p>
+
+          <div class="contacto-card">
+            <i class="fa-solid fa-calendar-days"></i>
+            <div>
+              <h3>Agenda tu cita</h3>
+              <p>Reserva el baño o corte de tu mascota.</p>
+              <a
+                href="#"
+                target="_blank"
+                class="btn-contacto"
+                >Agendar Cita</a
+              >
+            </div>
+          </div>
+
+          <div class="contacto-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h3>Telefono</h3>
+              <p>Contacto no disponible en demo</p>
+            </div>
+          </div>
+
+          <div class="contacto-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h3>Ubicación</h3>
+              <p>
+                Dirección omitida en la versión pública
+                15449, Perú
+              </p>
+              <p><br />Atencion: Lunes a Sábado de 9:00 a.m. a 6:00 p.m.</p>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-mapa">
+          <div class="mapa-demo" role="note">Mapa no incluido en la versión pública.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-nuevo">
+      <div class="footer-contenedor">
+        <div class="footer-logo-box">
+          <img src="img/Pelucas Caninas.png" alt="Logo Pelucas Caninas" />
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="#inicio">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="productos.html">Productos</a>
+          <a href="#contactanos">Contáctanos</a>
+          <a href="nosotros.html">Nosotros</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Síguenos</h4>
+          <div class="footer-redes-nuevo">
+            <a
+              href="#"
+              target="_blank"
+            >
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <h4 class="contactame-titulo">Contáctame</h4>
+          <p class="footer-correo">
+            <i class="fa-solid fa-envelope"></i>
+            contacto@ejemplo.invalid
+          </p>
+        </div>
+
+        <div class="footer-imagenes">
+          <a href="libro.html">
+            <img
+              src="img/Libro de reclamaciones.jpg"
+              alt="Libro de Reclamaciones"
+            />
+          </a>
+
+          <img src="img/pagos.png" alt="Medios de pago" />
+        </div>
+      </div>
+
+      <p class="footer-copy-nuevo">
+        © 2026 Pelucas Caninas - Todos los derechos reservados
+      </p>
+    </footer>
+      <script src="js/app.js"></script>
+  </body>
+</html>
